@@ -1,0 +1,32 @@
+{
+  "name": "web-audit-cli",
+  "version": "1.0.0",
+  "description": "Headless Chromium CLI tool for automated web telemetry, HTTP security headers auditing, runtime exception tracking, and visual reporting.",
+  "main": "src/scanner.js",
+  "bin": {
+    "web-audit": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node bin/cli.js",
+    "audit": "node bin/cli.js",
+    "test": "node --test tests/**/*.test.js"
+  },
+  "keywords": [
+    "playwright",
+    "chromium",
+    "security-headers",
+    "web-audit",
+    "cli",
+    "automation",
+    "seo",
+    "accessibility"
+  ],
+  "author": "María López Padilla <marialopezpadilla5@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "playwright": "^1.63.0"
+  }
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>María López Padilla — Computer Engineer &amp; Security Intelligence</title>
+  <meta name="description" content="Personal portfolio of María López Padilla. Computer Engineer specialized in Threat Intelligence, High-Performance Systems, and Security Automation." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-theme="dark">
+
+  <div class="site-container">
+    <!-- Minimalist Header -->
+    <header class="header">
+      <a href="#top" class="brand">maria.lopez</a>
+      <div class="header-right">
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="resume.pdf" target="_blank" rel="noopener noreferrer" class="nav-link resume-pill">CV / Resume (PDF)</a>
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle Theme" title="Toggle Theme">
+          <span class="icon-sun">☀️</span>
+          <span class="icon-moon">🌙</span>
+        </button>
+      </div>
+    </header>
+
+    <main id="top">
+      <!-- Concise Hero / Presentation -->
+      <section class="intro-section">
+        <h1 class="intro-title">María López Padilla</h1>
+        <p class="intro-subtitle">Computer Engineer &amp; Cybersecurity Specialist</p>
+        
+        <p class="intro-bio">
+          I build high-performance data systems, graph-driven threat intelligence pipelines (<span class="mono">Neo4j</span>), and security tooling. Currently working on physical security intelligence and sovereign local AI at <strong>Banco de España</strong>. Valedictorian with Extraordinary Award in Computer Engineering and co-author of published research in HPC.
+        </p>
+
+        <div class="intro-links">
+          <a href="https://github.com/mariaalopez4" target="_blank" rel="noopener noreferrer" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            github/mariaalopez4
+          </a>
+          <a href="https://www.linkedin.com/in/marialopezpadilla/" target="_blank" rel="noopener noreferrer" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+            LinkedIn
+          </a>
+          <a href="mailto:marialopezpadilla5@gmail.com" class="social-link">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            Email
+          </a>
+        </div>
+      </section>
+
+      <!-- Key Projects Showcase -->
+      <section id="projects" class="projects-section">
+        <h2 class="section-title">Featured Projects</h2>
+
+        <!-- Project 1: web-audit-cli (Live & Active) -->
+        <article class="project-item">
+          <div class="project-top">
+            <h3 class="project-name">
+              <a href="https://github.com/mariaalopez4/web-audit-cli" target="_blank" rel="noopener noreferrer">
+                web-audit-cli <span class="arrow">↗</span>
+              </a>
+            </h3>
+            <span class="project-tag active">Active Repository</span>
+          </div>
+
+          <p class="project-desc">
+            High-throughput headless browser CLI tool for web application telemetry, runtime exception tracking, and OWASP HTTP security headers auditing (TLS, HSTS, CSP, X-Frame-Options). Generates self-contained interactive HTML dashboards and CI/CD-ready Markdown reports.
+          </p>
+
+          <div class="project-meta">
+            <span class="meta-tag">Node.js</span>
+            <span class="meta-tag">Playwright</span>
+            <span class="meta-tag">Chromium</span>
+            <span class="meta-tag">OWASP Headers</span>
+            <span class="meta-tag">node:test</span>
+          </div>
+
+          <!-- Clean Terminal Demo -->
+          <div class="cli-box">
+            <div class="cli-header">
+              <span class="cli-dot"></span>
+              <span class="cli-dot"></span>
+              <span class="cli-dot"></span>
+              <span class="cli-title">bash — web-audit</span>
+            </div>
+            <pre class="cli-body"><code><span class="cli-cmd">$ node bin/cli.js https://example.com</span>
+[web-audit] Auditing https://example.com (timeout: 30000ms)...
+[web-audit] Completed in 1.42s
+--------------------------------------------------
+Status:       200 OK
+Checks:       9 passed, 3 warnings, 0 failed
+Transferred:  128.4 KB (14 requests)
+Exceptions:   0 (0 console errors, 0 failed network requests)
+--------------------------------------------------
+HTML Report:  reports/example.com/report.html
+Markdown:     reports/example.com/report.md</code></pre>
+          </div>
+        </article>
+
+        <!-- Project 2: geud-hpc-optimizer (TFG / Honors / Paper) -->
+        <article class="project-item">
+          <div class="project-top">
+            <h3 class="project-name">
+              geud-hpc-optimizer
+            </h3>
+            <span class="project-tag academic">BSc Honors &amp; Scientific Paper</span>
+          </div>
+
+          <p class="project-desc">
+            Parallel evolutionary optimization and multi-core acceleration of generalized Equivalent Uniform Dose (gEUD) models for Intensity-Modulated Radiation Therapy (IMRT) planning. Vectorized dosage kernels in C++ with OpenMP to optimize clinical multi-objective Pareto frontiers.
+          </p>
+
+          <div class="project-meta">
+            <span class="meta-tag">C++17</span>
+            <span class="meta-tag">OpenMP</span>
+            <span class="meta-tag">Genetic Algorithms</span>
+            <span class="meta-tag">Python / Benchmarking</span>
+            <span class="meta-tag">HPC</span>
+          </div>
+        </article>
+
+        <!-- Project 3: threat-graph-rag (TFM / Master's Project) -->
+        <article class="project-item">
+          <div class="project-top">
+            <h3 class="project-name">
+              threat-graph-rag
+            </h3>
+            <span class="project-tag research">UC3M Master's Project</span>
+          </div>
+
+          <p class="project-desc">
+            Sovereign, air-gapped threat intelligence pipeline combining a Neo4j property graph with a local RAG architecture. Translates natural language inquiries into Cypher queries to correlate multi-source OSINT indicators, vulnerabilities, and threat actors with 100% data sovereignty.
+          </p>
+
+          <div class="project-meta">
+            <span class="meta-tag">Python</span>
+            <span class="meta-tag">Neo4j</span>
+            <span class="meta-tag">FastAPI</span>
+            <span class="meta-tag">Local LLMs (Ollama)</span>
+            <span class="meta-tag">OSINT / STIX</span>
+          </div>
+        </article>
+      </section>
+
+      <!-- Competencies Strip -->
+      <section class="skills-strip">
+        <h2 class="section-title">Core Competencies</h2>
+        <div class="skills-row">
+          <div class="skill-group">
+            <span class="skill-group-title">Threat Intel &amp; Security</span>
+            <span class="skill-items">Neo4j, Threat Modeling, OSINT/SOCMINT, Network Protocols, Applied Cryptography</span>
+          </div>
+          <div class="skill-group">
+            <span class="skill-group-title">Languages &amp; Runtimes</span>
+            <span class="skill-items">Python, C#, C++, SQL, Bash, Node.js</span>
+          </div>
+          <div class="skill-group">
+            <span class="skill-group-title">Systems &amp; Architecture</span>
+            <span class="skill-items">Local RAG / Sovereignty, High-Performance Computing (OpenMP), Linux, Docker</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Clean Footer -->
+    <footer class="footer">
+      <p class="footer-text">María López Padilla &bull; Madrid, Spain</p>
+      <div class="footer-links">
+        <a href="https://github.com/mariaalopez4">GitHub</a>
+        <a href="https://www.linkedin.com/in/marialopezpadilla/">LinkedIn</a>
+        <a href="mailto:marialopezpadilla5@gmail.com">Email</a>
+        <a href="resume.pdf">Resume</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
