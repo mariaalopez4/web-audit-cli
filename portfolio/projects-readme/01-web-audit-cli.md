@@ -190,7 +190,6 @@ The test suite validates edge cases across security header evaluation, malformed
 **María López Padilla**  
 - GitHub: [@mariaalopez4](https://github.com/mariaalopez4)  
 - LinkedIn: [linkedin.com/in/marialopezpadilla](https://www.linkedin.com/in/marialopezpadilla/)  
-- Email: marialopezpadilla5@gmail.com  
 - Portfolio: [mariaalopez4.github.io](https://mariaalopez4.github.io)
 
 ---

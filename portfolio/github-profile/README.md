@@ -2,7 +2,7 @@
 
 Computer Engineer focused on **Cyber Threat Intelligence**, **Graph Architectures (Neo4j)**, and **High-Performance Systems**. Currently working on security intelligence and local RAG pipelines at **Banco de España**.
 
-[Portfolio](https://mariaalopez4.github.io) • [LinkedIn](https://www.linkedin.com/in/marialopezpadilla) • [Email](mailto:marialopezpadilla5@gmail.com) • [Resume (PDF)](https://mariaalopez4.github.io/resume.pdf)
+[Portfolio](https://mariaalopez4.github.io) • [LinkedIn](https://www.linkedin.com/in/marialopezpadilla)
 
 ---
 
